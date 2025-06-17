@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales of Land - Estate Masters</title>
+    <link rel="icon" href="/img/favicon.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+     <script>
+        function loadVideo(element, videoId) {
+            const container = element.parentNode;
+            container.innerHTML = `
+                <iframe src="https://www.youtube.com/embed/${videoId}?autoplay=1"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            `;
+        }
+    </script>
+</head>
+<body>
+    <!-- Navbar -->
+    <section>
+        <nav class="navbar navbar-expand-lg p-4" style="background-color: rgb(76, 1, 83);">
+            <div class="container-fluid fw-semibold">
+                <a href="/html/home.html"><img src="/img/emgh logo.jpeg" alt="Estate Master Logo"></a>
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item ps-3 me-2">
+                        <a class="nav-link active ps-5 text-light" aria-current="page" href="/html/home.html">Home</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-light" href="/html/services.html">Our Services</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-light" href="/html/services.html">About Us</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-light" href="/html/services.html">Our Team</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-light" href="/html/services.html">Kasoa</a>
+                    </li>
+                    <li class="nav-item dropdown me-2 hover-dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Our Sites
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Dwellys Court</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Kings Cottage</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Palm Hills</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Tsopoli Site 1</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">The Royal City</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Mobole - Afienya</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-light" href="/html/services.html">FAQ</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-light" href="/html/services.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="/html/services.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-warning text-light fw-semibold px-3" type="submit">BOOK A VISIT</button>
+                </form>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero-section hero-body pt-5 pb-5">
+        <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-7">
+            <div class="hero-content">
+                <h1 class="display-5 fw-bold">We are your Most<br>Preferred Estate Partners!</h1>
+                <p class="mt-3">
+                Estate Masters limited (formerly Kings City real estate) is a wholly Ghanaian
+                owned establishment that deals in affordable serviced plots, luxury homes and
+                property management.
+                </p>
+                
+                <div class="mt-4 d-flex flex-wrap gap-3">
+                    <a href="tel:+233557272031" class="btn-call fw-bold px-4 py-2 text-white">
+                        <i class="bi bi-telephone-fill"></i> 
+                        Call Us
+                    </a>
+                    <a href="https://wa.me/233557272031" class="btn-whatsapp fw-bold px-4 py-2 text-white">
+                        <i class="bi bi-whatsapp"></i> 
+                        WhatsApp Us
+                    </a>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-5 d-flex flex-column align-items-center justify-content-center mt-4 mt-md-0">
+            <div class="play-btn">
+                <i class="bi bi-play-fill"></i>
+            </div>
+            <span class="watch-label">Watch Our Documentary</span>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- Welcome to Estate Masters Section -->
+    <section class="welcome-section">
+        <div class="container pt-5 pb-5">
+        <div class="row">
+            <!-- Left Text Column -->
+            <div class="col-md-5 welcome-text pe-5">
+                <p class="section-subtitle">Our Identity</p>
+                <h2 class="section-title mb-3">Welcome to Estate Masters Limited</h2>
+                <p>Estate Masters limited (formerly Kings City real estate) is a wholly Ghanaian owned establishment that deals in affordable serviced plots, luxury homes and property management.</p>
+                <p>We have been in operation since 2014 and provided our products and services to both individuals and groups with diligence and professionalism each time we are called upon. Our services involve Land sales and documentation, Building & Construction and Property Management.</p>
+                <button class="read-more-btn mt-3">
+                    <a href="https://estatemastersgh.com/about-us/" class="text-white" style="text-decoration: none;">Read More</a>
+                </button>
+            </div>
+
+            <!-- Middle Column -->
+            <div class="col-md-4 welcome-text pe-5">
+                <p>At Estate Masters, we go the extra mile. Before enlisting a property for sale, our Intelligence Team runs a comprehensive background check and investigation to ensure its legitimacy. We also guarantee that all our lands are serviceable for construction.</p>
+                <p>To do this, we clear away any thickets (bushes), rubble, stumps, and anything else that could stand in the way.</p>
+                <img src="/img/car-image.jpeg" alt="Estate Car at Site" class="img-fluid-custom img-thumbnail mb-2">
+                <img src="/img/flyer-1.jpg" alt="Land Promo Flyer" class="img-fluid">
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-md-3 welcome-images">
+                <img src="/img/land-3.jpeg" alt="Estate Building" class="img-thumbnail">
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- Helping people buy and sell properties Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row align-items-center">
+            <div class="col-md-6 d-flex">
+                <div class="row w-100">
+                    <div class="col-6 mb-4">
+                    <div class="stat-item">
+                        <i class="stat-icon bi bi-emoji-smile me-4"></i>
+                        <div>
+                            <div class="stat-value">3,500+</div>
+                            <div class="stat-label">Happy Customers</div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-6 mb-4">
+                    <div class="stat-item">
+                        <i class="stat-icon bi bi-house me-4"></i>
+                        <div>
+                            <div class="stat-value">3,500</div>
+                            <div class="stat-label">Properties Sold</div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-12"><div class="separator-horizontal"></div></div> <div class="col-6 mt-4">
+                    <div class="stat-item">
+                        <i class="stat-icon bi bi-check2-square me-4"></i>
+                        <div>
+                            <div class="stat-value">180+</div>
+                            <div class="stat-label">Project Completed</div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-6 mt-4">
+                    <div class="stat-item">
+                        <i class="stat-icon bi bi-headset me-4"></i>
+                        <div>
+                            <div class="stat-value">30</div>
+                            <div class="stat-label">Rep Support</div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1 d-flex justify-content-center align-items-center">
+                <div class="line-divider"></div>
+            </div>
+            <div class="col-md-5">
+                <h2 class="heading-text">Helping people buy and sell properties</h2>
+                <p class="description-text">We service our lands by clearing any thickets (bushes), rubble, and stumps etc. that will inhibit construction.</p>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="checklist-item d-flex align-items-center">
+                            <input class="form-check-input mt-0" type="checkbox" checked disabled style="background-color: #d4a75f; border-color: #d4a75f;">
+                            <span>Trusted Agent</span>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="checklist-item d-flex align-items-center">
+                            <input class="form-check-input mt-0" type="checkbox" checked disabled style="background-color: #d4a75f; border-color: #d4a75f;">
+                            <span>Top Listed Property</span>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="checklist-item d-flex align-items-center">
+                            <input class="form-check-input mt-0" type="checkbox" checked disabled style="background-color: #d4a75f; border-color: #d4a75f;">
+                            <span>24/7 Support</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- WHAT WE OFFER SECTION -->
+    <section class="p-5">
+        <div class="container p-5">
+            <div class="row align-items-start">
+
+                <!-- Left Column: Text and List -->
+                <div class="col-md-5 mb-4">
+                <small class="fw-semibold fs-5" style="color: #d4a75f;">What We Offer</small>
+                <h2 class="mt-2 mb-3 section-title">Choose from our<br>variety of plot<br>sizes at Coastal<br>Park</h2>
+
+                <div class="highlight-box mb-3">
+                    <ul class="mb-0">
+                    <li>
+                        <input class="form-check-input mt-0 me-3" type="checkbox" checked disabled style="background-color: #e6ae54; border-color: #e6ae54;">
+                        50 feet X 70 feet
+                    </li>
+                    <li>
+                        <input class="form-check-input mt-0 me-3" type="checkbox" checked disabled style="background-color: #e6ae54; border-color: #e6ae54;">
+                        70 feet X 70 feet
+                    </li>
+                    <li>
+                        <input class="form-check-input mt-0 me-3" type="checkbox" checked disabled style="background-color: #e6ae54; border-color: #e6ae54;">
+                        100 feet X 100 feet
+                    </li>
+                    </ul>
+                </div>
+
+                <div class="price text-dark">
+                    Starting Price: <span class="text-dark fs-2">GHC 55,000</span>
+                </div>
+                </div>
+
+                <!-- Right Column: Image Grid -->
+                <div class="col-md-7 image-grid">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                    <img src="/img/landdd-1.jpg" alt="Image 1">
+                    </div>
+                    <div class="col-md-6">
+                    <img src="/img/coastal park flyer.jpg" alt="Flyer">
+                    </div>
+                    <div class="col-md-6">
+                    <img src="/img/landdd-2.jpg" alt="Image 2">
+                    </div>
+                    <div class="col-md-6">
+                    <img src="/img/landdd-3.jpg" alt="Image 3">
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Images Carousel -->
+        <div class="container my-5">
+            <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-3"><img src="/img/landdd-1.jpg" class="img-fluid" alt="image"></div>
+                        <div class="col-3"><img src="/img/landdd-2.jpg" class="img-fluid" alt="image"></div>
+                        <div class="col-3"><img src="/img/landdd-2.jpg" class="img-fluid" alt="image"></div>
+                        <div class="col-3"><img src="/img/landdd-3.jpg" class="img-fluid" alt="image"></div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-3"><img src="/img/landdd-3.jpg" class="img-fluid" alt="image"></div>
+                        <div class="col-3"><img src="/img/landdd-2.jpg" class="img-fluid" alt="image"></div>
+                        <div class="col-3"><img src="/img/landdd-2.jpg" class="img-fluid" alt="image"></div>
+                        <div class="col-3"><img src="/img/landdd-3.jpg" class="img-fluid" alt="image"></div>
+                    </div>
+                </div>
+
+                </div>
+
+                <!-- Navigation arrows -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TESTIMONIAL SECTION -->
+    <section class="py-5 testi-body">
+        <div class="container">
+            <div class="section-header">
+                <small>What Our Clients Say About Us</small>
+                <h2 class="mt-3">Testimonials</h2>
+            </div>
+
+            <div class="row mb-5 justify-content-center">
+                <div class="col-md-5 col-sm-10 mb-4 mb-md-0">
+                    <div>
+                        <div class="video-thumbnail-container">
+                            <img src="https://img.youtube.com/vi/gDjm8FuHdRY/hqdefault.jpg" alt="Video Thumbnail 1">
+                            <div class="play-button" onclick="loadVideo(this, 'dQw4w9WgXcQ')">&#9658;</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-10">
+                    <div>
+                        <div class="video-thumbnail-container">
+                            <img src="https://img.youtube.com/vi/_3BHMGTgL6s/hqdefault.jpg" alt="Video Thumbnail 2">
+                            <div class="play-button" onclick="loadVideo(this, 'LXb3EKWsInQ')">&#9658;</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BLOG & NEWS DIV... -->
+            <div class="section-header mt-5 pt-5">
+                <small>Blog & Posts</small>
+                <h2 class="mt-3">Latest News</h2>
+            </div>
+
+            <div class="row pb-5">
+                <div class="col-md-4 mb-4">
+                    <div class="news-card">
+                        <a href="#" style="text-decoration: none;"><h5>Managing Director Receives Global Excellence Business Leaders Award</h5></a>
+                        <p>Visionary Leader Honored: MD Receives Global Excellence Business Leaders Award! We are thrilled to announce that our Managing Director has been recognized as a global business leader for his outstanding contributions.</p>
+                        <div class="news-meta">May 18, 2025 // No Comments</div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="news-card">
+                        <a href="#" style="text-decoration: none;"><h5>Unlock Your Dream Land: 5 Must-Know Factors Before You Buy</h5></a>
+                        <p>Buying land is a significant step. Don't leap without looking! At Estate Masters, we empower you with crucial knowledge. Before you invest, consider these 5 essential factors to ensure a smart decision.</p>
+                        <div class="news-meta">April 28, 2025 // No Comments</div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="news-card">
+                        <a href="#" style="text-decoration: none;"><h5>Buy Good Land, Avoid Costly Pitfalls.</h5></a>
+                        <p>Investing in land can be a significant step towards building wealth and securing your future. However, like any investment, it comes with potential pitfalls that could hinder your progress. Before you invest, consider these 5 essential factors to ensure a smart decision.</p>
+                        <div class="news-meta">April 24, 2025 // No Comments</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between mb-3">
+                <!-- Logo -->
+                <div class="col-md-3 logo mb-3 mb-md-0 pe-5">
+                <img src="/img/emgh logo.jpeg" alt="Estate Masters Logo">
+                </div>
+
+                <!-- Language Dropdown -->
+                <div class="col-md-3 mb-3 mb-md-0 ps-5">
+                <select class="form-select">
+                    <option selected>Select Language</option>
+                    <option value="ar">Arabic</option>
+                    <option value="ch">Chinese (Simplified)</option>
+                    <option value="du">Dutch</option>
+                    <option value="en">English</option>
+                    <option value="fr">French</option>
+                    <option value="ge">German</option>
+                    <option value="it">Italian</option>
+                    <option value="po">Portuguese</option>
+                    <option value="ru">Russian</option>
+                    <option value="sp">Spanish</option>
+                </select>
+                </div>
+
+                <!-- Social Icons -->
+                <div class="col-md-4 text-md-end social-icons icon-color">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="fw-medium footer-bottom d-flex justify-content-between flex-column flex-md-row text-center text-md-start">
+                <span>&copy 2025 Estate Masters Ltd. All Rights Reserved</span>
+                <div>
+                    <a href="#">Terms & Conditions</a>
+                    <span class="divider d-none d-md-inline-block"></span>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
